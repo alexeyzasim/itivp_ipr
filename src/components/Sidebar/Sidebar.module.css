@@ -1,0 +1,91 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    display: none;
+    z-index: 1000;
+  }
+  
+  .overlay.active {
+    display: block;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: var(--brand-color);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebarCloseBtn {
+    align-self: flex-end;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    width: 29px;
+  }
+  
+  .sidebarMenu {
+    margin-top: 90px;
+  }
+  
+  .sidebarList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebarItem {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebarItem::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+  }
+  
+  .sidebarLink {
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 45px;
+  }
+  
+  .sidebarLink:hover {
+    color: #000;
+  }
+  
+  .sidebarSocials {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .sidebarSocialLink--github:hover svg path {
+    fill: #fff;
+  }
+  

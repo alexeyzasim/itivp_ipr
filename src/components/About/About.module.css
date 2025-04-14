@@ -1,0 +1,130 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.about__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about__image {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.about__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.about__description {
+  width: 60%;
+}
+
+.icon-bg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, #f5a623, #f7b731);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+.about__subtitle {
+  font-size: 18px;
+  color: #ff6f61;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.about__title {
+  font-size: 36px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.about__text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-bg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, #f5a623, #f7b731);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+.item__title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.item__text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__image {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .about__description {
+    width: 100%;
+  }
+
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
