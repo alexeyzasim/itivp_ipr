@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itivp_ipr/static/css/main.fa1784bb.css",
-    "main.js": "/itivp_ipr/static/js/main.2e9bfee9.js",
+    "main.js": "/itivp_ipr/static/js/main.a391f38e.js",
     "static/media/Montserrat-Bold.ttf": "/itivp_ipr/static/media/Montserrat-Bold.3530bfc1b50b41bdc29d.ttf",
     "static/media/Montserrat-Regular.ttf": "/itivp_ipr/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
     "static/media/Poppins-SemiBold.ttf": "/itivp_ipr/static/media/Poppins-SemiBold.a1b0848ceedfa784fc2f.ttf",
@@ -11,10 +11,10 @@
     "static/media/Poppins-Bold.ttf": "/itivp_ipr/static/media/Poppins-Bold.e2abc8f5e9a67ea669ea.ttf",
     "index.html": "/itivp_ipr/index.html",
     "main.fa1784bb.css.map": "/itivp_ipr/static/css/main.fa1784bb.css.map",
-    "main.2e9bfee9.js.map": "/itivp_ipr/static/js/main.2e9bfee9.js.map"
+    "main.a391f38e.js.map": "/itivp_ipr/static/js/main.a391f38e.js.map"
   },
   "entrypoints": [
     "static/css/main.fa1784bb.css",
-    "static/js/main.2e9bfee9.js"
+    "static/js/main.a391f38e.js"
   ]
 }
